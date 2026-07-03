@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { font-size: 3em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .intro { background: white; padding: 40px; border-radius: 8px; margin-bottom: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .projects { margin: 40px 0; }
+        .projects h2 { margin-bottom: 30px; font-size: 2em; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .project-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .project-card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.15); }
+        .project-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; }
+        .project-header h3 { font-size: 1.4em; margin-bottom: 5px; }
+        .project-content { padding: 20px; }
+        .project-content p { margin-bottom: 15px; color: #666; }
+        .btn { display: inline-block; padding: 10px 20px; background: #667eea; color: white; text-decoration: none; border-radius: 6px; transition: background 0.3s; }
+        .btn:hover { background: #5568d3; }
+        .contact { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 8px; text-align: center; margin: 40px 0; }
+        .contact h2 { margin-bottom: 20px; }
+        .contact-info { margin-top: 20px; }
+        .contact-info a { color: white; text-decoration: none; font-weight: 600; margin: 0 15px; }
+        footer { text-align: center; padding: 20px; color: #999; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Data Analyst Portfolio</h1>
+        <p>Python | SQL | Power BI/Tableau | Data Infrastructure</p>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>I build production-grade data solutions. Specializing in ETL pipelines, business intelligence dashboards, and data automation.</p>
+        </div>
+        
+        <div class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Data Pipeline ETL</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Production-grade Python ETL pipeline for multi-source data ingestion and transformation.</p>
+                        <a href="https://github.com/imaneHM/data-pipeline-etl" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Power BI Dashboard</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Interactive business intelligence dashboard with KPI tracking and real-time analytics.</p>
+                        <a href="https://github.com/imaneHM/powerbi-dashboard" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Tableau Analytics</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Advanced analytics workbook with calculated fields and interactive visualizations.</p>
+                        <a href="https://github.com/imaneHM/tableau-dashboard" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Python Automation</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Production-ready Python utilities for data automation and reporting workflows.</p>
+                        <a href="https://github.com/imaneHM/automation-scripts" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Data Assessment</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Infrastructure audit tool that evaluates data systems and recommends improvements.</p>
+                        <a href="https://github.com/imaneHM/data-infrastructure-assessment" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h2>Let's Work Together</h2>
+            <p>I'm available for data projects. Typical rates: $60-65/hour or fixed-price.</p>
+            <div class="contact-info">
+                <a href="mailto:Hammoumiimane@outlook.com">Email</a>
+                <a href="https://github.com/imaneHM" target="_blank">GitHub</a>
+                <a href="https://upwork.com" target="_blank">Upwork</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Data Portfolio. Built with Python & Vercel.</p>
+    </footer>
+</body>
+</html>
